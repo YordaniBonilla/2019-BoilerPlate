@@ -1,2 +1,7 @@
+# Deployment directories
 /node_modules
 /dist
+
+.env
+# For deployment, a Node-compatible platform like Heroku or Netlify, runs the build command in your app. That installs all the node_modules and generates the dist folder and its contents.
+# So, we don't need to push the local folders: node_modules and dist to remote.
