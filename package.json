@@ -1,17 +1,17 @@
 {
   "name": "greenTea",
   "version": "1.0.0",
-  "description": "",
+  "description": "2019 BoilerPlate",
   "main": "index.js",
   "scripts": {
     "builddev": "webpack --watch --mode development",
-    "start": "nodemon server/index.js",
+    "local": "nodemon server/index.js",
     "dev": "webpack-dev-server --mode development --open --hot",
     "build": "webpack --mode production"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Yordani Bonilla",
+  "license": "MIT",
   "dependencies": {
     "express": "^4.17.1",
     "mysql": "^2.17.1",
